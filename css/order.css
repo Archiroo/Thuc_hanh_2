@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+html{
+    font-size: 62.5%;
+}
+:root{
+    --main-color: #ff6b81;
+    --color-hover: #ff5972;
+    --font-size: 2rem;
+}
+.header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 84%;
+    margin: 0 auto;
+    padding: 1.5rem 0;
+}
+.header .navbar a{
+    font-size: var(--font-size);
+    margin-left: 2rem;
+    color: var(--main-color);
+}
+.header .navbar a:hover{
+    color:var(--color-hover);
+}
+
+.food-search{
+    background-image: url(../image/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+.food-search .container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1.5rem 0;
+}
+.food-search .container .heading{
+    color: #fff;
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 2%;
+}
+.food-search .container .order{
+    width: 50%;
+    margin: 0 auto;
+}
+.food-search .container .order fieldset{
+    border: 1px solid #fff;
+    margin: 5%;
+    padding: 2%;
+    border-radius: 5px;
+}
+.food-search .container .order fieldset legend{
+    font-size: 2rem;
+}
+.food-search .container .order fieldset .food-menu{
+    width: 20%;
+    float: left;
+}
+.food-search .container .order fieldset .food-menu .food-menu__img{
+    width: 100%;
+    border-radius: 1rem;
+}
+.food-search .container .order fieldset .food-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+.food-search .container .order fieldset .food-desc h3{
+    font-size: 2rem; 
+}
+.food-search .container .order fieldset .food-desc .food-price{
+    font-size: 1.7rem;
+}
+.food-search .container .order fieldset .food-desc .order-label{
+    font-size: 1.7rem;
+}
+.food-search .container .order fieldset .food-desc .order-input{
+    width: 96%;
+    padding: 2%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+.food-search .container .order fieldset h3{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.food-search .container .order fieldset input{
+    width: 96%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+.food-search .container .order fieldset textarea{
+    width: 96%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+.food-search .container form fieldset .btn-order{
+    background-color: var(--main-color);
+    border:none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    color: #fff;
+    width: 25%;
+}
+.food-search .container form fieldset .btn-order:hover{
+    background-color:var(--color-hover);
+    cursor: pointer;
+}
+
+.footer{
+    padding: 1rem 0;
+    align-items: center;
+}
+.footer .link-icon,
+.footer h3{
+    padding: 0.5rem 0;
+    text-align: center;
+}
+.footer .link-icon a{
+    font-size: 3rem;
+    color: rgba(0, 10, 255, 0.8);
+    padding: 0 1rem;
+}
+.footer h3{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.footer h3 a{
+    color: var(--main-color);
+}
+.footer h3 a:hover{
+    color: #ff4d67;
+}
